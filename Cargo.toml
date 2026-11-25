@@ -1,0 +1,13 @@
+[package]
+name = "session-recorder"
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.84"
+description = "OKL v1 (OperantKitLog v1) writer and reader in Rust: the record types, the event sink trait and the plain-text wire format."
+license = "MIT"
+readme = "README.md"
+publish = false
+
+[lib]
+name = "session_recorder"
+path = "src/lib.rs"

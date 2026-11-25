@@ -1,0 +1,55 @@
+# OKL v1
+# session_name = "session"
+# clock_type = "ManualClock"
+# session_start = 0.0
+# meta:
+#   dsl = "FR3"
+#   decision = "host"
+# events:
+#   response          : id:int operandum:int? device_time:float?
+#   reinforcer_start  : id:int potency:float operandum:int?
+#   reinforcer_end    : id:int operandum:int?
+#   state_change      : from:str to:str
+#   component_change  : from:str to:str
+#   phase_enter       : label:str name:str? time:str? location:str? cue:str?
+#   phase_exit        : label:str
+#   stimulus_on       : stimulus:str
+#   stimulus_off      : stimulus:str
+# ---
+0.0	state_change	IDLE	RUNNING
+0.02885821282190184	response	1	-	0.02885821282190184
+0.4048894659060269	response	2	-	0.4048894659060269
+0.6934832509753595	response	3	-	0.6934832509753595
+0.6934832509753595	reinforcer_start	1	1.0	-
+0.6934832509753595	state_change	RUNNING	REINFORCING
+1.1934832509753595	reinforcer_end	1	-
+1.1934832509753595	state_change	REINFORCING	RUNNING
+1.252375994354212	response	4	-	1.252375994354212
+1.389187750286132	response	5	-	1.389187750286132
+1.5085701686597315	response	6	-	1.5085701686597315
+1.5085701686597315	reinforcer_start	2	1.0	-
+1.5085701686597315	state_change	RUNNING	REINFORCING
+2.0085701686597313	reinforcer_end	2	-
+2.0085701686597313	state_change	REINFORCING	RUNNING
+2.219446941472907	response	7	-	2.219446941472907
+2.530364315918899	response	8	-	2.530364315918899
+2.5500765166113304	response	9	-	2.5500765166113304
+2.5500765166113304	reinforcer_start	3	1.0	-
+2.5500765166113304	state_change	RUNNING	REINFORCING
+3.0500765166113304	reinforcer_end	3	-
+3.0500765166113304	state_change	REINFORCING	RUNNING
+3.0558279215251005	response	10	-	3.0558279215251005
+3.4171194380730796	response	11	-	3.4171194380730796
+3.530516486999777	response	12	-	3.530516486999777
+3.530516486999777	reinforcer_start	4	1.0	-
+3.530516486999777	state_change	RUNNING	REINFORCING
+4.030516486999777	reinforcer_end	4	-
+4.030516486999777	state_change	REINFORCING	RUNNING
+4.317848910070529	response	13	-	4.317848910070529
+4.318270564910563	response	14	-	4.318270564910563
+4.436167576040596	response	15	-	4.436167576040596
+4.436167576040596	reinforcer_start	5	1.0	-
+4.436167576040596	state_change	RUNNING	REINFORCING
+4.936167576040596	reinforcer_end	5	-
+4.936167576040596	state_change	REINFORCING	RUNNING
+4.936167576040596	state_change	RUNNING	FINISHED
